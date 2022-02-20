@@ -24,7 +24,7 @@ func main() {
 	//фиксированный размер окна
 	myForm.SetFixedSize(true)
 	//установка иконки окна
-	myIcon, _ := fyne.LoadResourceFromPath("/home/ringk0/go/src/myapp/anonim.png")
+	myIcon, _ := fyne.LoadResourceFromPath("anonim.png")
 	myForm.SetIcon(myIcon)
 
 	//рисуем на канвасе текст "Сервер"
