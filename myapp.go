@@ -16,10 +16,8 @@ func main() {
 	myForm := myapp.NewWindow("GUI для VPN-Wireguard (обход блокировок) v.1.0")
 	myForm.Resize(fyne.NewSize(600, 300))
 	myForm.SetFixedSize(true)
-<<<<<<< HEAD
-=======
+
 	//установка иконки окна
->>>>>>> a6f50ee19ed29c493593d7eb745f2cce37f31181
 	myIcon, _ := fyne.LoadResourceFromPath("anonim.png")
 	myForm.SetIcon(myIcon)
 	myForm.CenterOnScreen()
